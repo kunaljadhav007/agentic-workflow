@@ -1,0 +1,5 @@
+streamlit
+langchain
+langgraph
+langchain-openai
+Add openai if using pip install openai.
