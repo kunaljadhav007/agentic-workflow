@@ -5,7 +5,7 @@ from typing import List, Any
 from langgraph.graph import StateGraph, END
 from langchain.chat_models import ChatOpenAI
 
-llm = ChatOpenAI(model="gpt-3.5-turbo", api_key="your-openai-key")
+llm = ChatOpenAI(model="gpt-3.5-turbo", api_key="sk-proj-pqdJir0wj64cUU5suUeOoPs9V_7sTEMRX2WJr521d5vnWA0SQJK0Eqlv92kqyvteXSkSLl-X4sT3BlbkFJOGd4o2FwQcn_7rIQdeMOfQt2qHYU9EaWPMFP-KMcDC2cN3uUV9guAHv5AIlOeCtyV2sJDPIk0A")
 
 @dataclass
 class WorkflowState:
